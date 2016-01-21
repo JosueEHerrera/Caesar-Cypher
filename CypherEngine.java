@@ -1,13 +1,23 @@
+
 /**
- * 
+ * @author Josue Herrera
+ *
  */
 
 /**
- * @author Home
+ * The Class does the Caesar Cypher.
  *
  */
 
 public class CypherEngine {
+	
+	
+	/**
+	 * This is the first part of the encryption process 
+	 * @param message
+	 * @param shift
+	 * @return
+	 */
 	
 	public String encryptMessage(String message, int shift){
 		String encrypted; 
